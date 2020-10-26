@@ -38,7 +38,10 @@ void loop() {
 
   if('1'==incomingChar)
   {
-     Serial.println("rock");
+     //Serial.println("rock");
+     servo_0.write(0);
+     servo_1.write(0);
+     servo_2.write(0);
   }
   else
   {
@@ -48,7 +51,10 @@ void loop() {
 
   if('2'==incomingChar)
   {
-     Serial.println("scissors");
+     //Serial.println("scissors");
+     servo_0.write(180);
+     servo_1.write(180);
+     servo_2.write(180);
   }
   else
   {
@@ -57,7 +63,7 @@ void loop() {
 
   if('3'==incomingChar)
   {
-     Serial.println("paper");
+     //Serial.println("paper");
   }
   else
   {
