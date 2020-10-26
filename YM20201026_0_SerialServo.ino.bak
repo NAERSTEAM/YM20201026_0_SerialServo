@@ -1,7 +1,9 @@
-//OCT26 2020 T.I. Fixied incorrect init version
+//OCT.20 2020 Added smaple for multi servos control
+//OCT.20 2020 Created this file based on YM20201013_1_LED_MultiKeys
 
 #include<Servo.h>
 
+//Oct 26 2020. T.I. created this file
 
 
 #include <Servo.h>
