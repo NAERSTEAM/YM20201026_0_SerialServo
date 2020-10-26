@@ -2,10 +2,6 @@
 
 #include<Servo.h>
 
-
-
-#include <Servo.h>
-
 Servo servo_0;
 Servo servo_1;
 Servo servo_2;
