@@ -1,3 +1,4 @@
+//OCT20 2020 T.I. Removed unused code
 //OCT20 2020 T.I. Branched from the master for serial test
 
 
@@ -16,14 +17,11 @@ char Rock_chr='1';
 char Scissors_chr='2';
 char Paper_chr='3';
 
-
-
 char incomingChar = 0;
 
 void setup() {
   // put your setup code here, to run once:
 
-    Serial.setTimeout(50);
     Serial.begin(9600);
 
     servo_0.attach(pin_s0);
