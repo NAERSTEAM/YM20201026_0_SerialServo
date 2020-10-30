@@ -1,5 +1,5 @@
-//OCT30 2020 T.I. code refactoring.
-//OCT26 2020 T.I. Fixied incorrect init version
+//OCT20 2020 T.I. Branched from the master for serial test
+
 
 #include<Servo.h>
 
@@ -44,21 +44,17 @@ void loop() {
 
   if(Rock_chr==incomingChar)
   {
-     //Serial.println("rock");
-     servo_0.write(0);
-     servo_1.write(0);
-     servo_2.write(0);
+     Serial.println("rock");
+
   }
   else if(Scissors_chr==incomingChar)
   {
-     //Serial.println("scissors");
-     servo_0.write(180);
-     servo_1.write(180);
-     servo_2.write(180);
+     Serial.println("scissors");
+
   }
   else if(Paper_chr==incomingChar)
   {
-     //Serial.println("paper");
+     Serial.println("paper");
   }
 
   
