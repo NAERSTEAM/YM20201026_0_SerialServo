@@ -1,3 +1,4 @@
+//NOV21 2020 T.I. Removed unused variable
 //NOV21 2020 T.I. Removed serail timeout setting, code refactoring
 //OCT30 2020 T.I. code refactoring.
 //OCT26 2020 T.I. Fixied incorrect init version
@@ -7,10 +8,6 @@
 Servo servo_L;
 Servo servo_M;
 Servo servo_R;
-
-int pin_s0=9;
-int pin_s1=10;
-int pin_s2=11;
 
 // Serial cmds table
 char Rock_chr='1';
